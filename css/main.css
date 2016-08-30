@@ -1,0 +1,123 @@
+.contenedor{
+	text-align: center;
+}
+
+.row:before, .row:after{
+	content: " ";
+	display: table;
+}
+.row:after {
+	clear: both;
+}
+
+[class*="col-"]{
+	min-height: 7px;
+	padding: 12px;
+	float: left;
+}
+
+.col-1{
+	width: 8.333333%; 
+}
+.col-2{
+	width: 16.666667%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.333333%;
+}
+.col-5{
+	width: 41.666667%;
+}
+.col-6{
+	width: 
+}
+.col-7{
+	width: 
+}
+.col-8{
+	width: 
+}
+.col-9{
+	width: 
+}
+.col-10{
+	width: 
+}
+.col-11{
+	width: 
+}
+.col-12{
+	width: 
+}
+.logotipo{
+	
+
+}
+
+.subtitulos{
+
+}
+
+.caja{
+
+
+}
+
+.box{
+
+}
+
+
+
+
+
+
+
+
+
+
+.img1{
+	background-image: url("../img/profile-1.png");
+}
+
+.img2{
+	background-image: url("../img/profile-2.png");
+}
+
+.img3{
+	background-image: url("../img/profile-3.png");
+}
+
+.img4{
+	background-image: url("../img/profile-4.png");
+}
+
+.img5{
+	background-image: url("../img/profile-5.png");
+}
+
+.img6{
+	background-image: url("../img/profile-6.png");
+}
+
+.caja{
+	width: 211px;
+	height: 211px;
+	display: inline-block;
+	position: relative;
+	margin: 15px;
+}
+
+.nombre{
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+	color: white;
+}
+
+.box{
+	width: 60%;
+}
